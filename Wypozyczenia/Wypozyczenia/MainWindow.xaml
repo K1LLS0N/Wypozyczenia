@@ -1,0 +1,132 @@
+﻿<Window x:Class="Wypozyczenia.MainWindow"
+
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+
+        Title="System Wypożyczalni Sprzętu Szkolnego" Height="650" Width="1100"
+
+        WindowStartupLocation="CenterScreen" Background="#F3F4F6">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <!-- Nagłówek -->
+            <RowDefinition Height="Auto"/>
+            <!-- Główna zawartość -->
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- HEADER -->
+        <Border Grid.Row="0" Background="#1E293B" CornerRadius="8" Padding="15" Margin="0,0,0,20">
+            <DockPanel>
+                <TextBlock Text="Wypożyczalnia Sprzętu Szkolnego" 
+
+                           Foreground="White" FontSize="20" FontWeight="Bold" 
+
+                           VerticalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="+ Dodaj sprzęt" 
+
+                            Background="#2563EB" Foreground="White" FontWeight="SemiBold"
+
+                            Padding="15,8" Margin="0,0,10,0" BorderThickness="0" Cursor="Hand">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="6"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <Button Content="+ Wypożycz" 
+
+                            Background="#16A34A" Foreground="White" FontWeight="SemiBold"
+
+                            Padding="15,8" BorderThickness="0" Cursor="Hand">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="6"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </StackPanel>
+            </DockPanel>
+        </Border>
+
+        <!-- GŁÓWNA ZAWARTOŚĆ (2 KOLUMNY) -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- KOLUMNA 1: LISTA SPRZĘTU -->
+            <Border Grid.Column="0" Background="White" CornerRadius="8" Padding="15">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="10" ShadowDepth="1" Opacity="0.05" Color="Black"/>
+                </Border.Effect>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Text="Katalog Sprzętu" FontSize="16" FontWeight="Bold" Foreground="#1E293B" Margin="0,0,0,15"/>
+
+                    <DataGrid Grid.Row="1" ItemsSource="{Binding SprzetList}" AutoGenerateColumns="False" 
+
+                              CanUserAddRows="False" IsReadOnly="True" GridLinesVisibility="Horizontal" 
+
+                              HeadersVisibility="Column" Background="Transparent" BorderThickness="0">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Nazwa" Binding="{Binding Nazwa}" Width="*"/>
+                            <DataGridTextColumn Header="Kategoria" Binding="{Binding Kategoria}" Width="100"/>
+                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="90"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </Border>
+
+            <!-- KOLUMNA 2: AKTYWNE WYPOŻYCZENIA -->
+            <Border Grid.Column="2" Background="White" CornerRadius="8" Padding="15">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="10" ShadowDepth="1" Opacity="0.05" Color="Black"/>
+                </Border.Effect>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Text="Aktywne Wypożyczenia" FontSize="16" FontWeight="Bold" Foreground="#1E293B" Margin="0,0,0,15"/>
+
+                    <DataGrid Grid.Row="1" ItemsSource="{Binding WypozyczeniaList}" AutoGenerateColumns="False" 
+
+                              CanUserAddRows="False" IsReadOnly="True" GridLinesVisibility="Horizontal" 
+
+                              HeadersVisibility="Column" Background="Transparent" BorderThickness="0">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Sprzęt" Binding="{Binding SprzetNazwa}" Width="*"/>
+                            <DataGridTextColumn Header="Osoba" Binding="{Binding Osoba}" Width="*"/>
+                            <DataGridTextColumn Header="Data zwrotu" Binding="{Binding DataZwrotu}" Width="100"/>
+                            <DataGridTemplateColumn Width="90">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Content="Zwróć" Background="#EF4444" Foreground="White" 
+
+                                                Padding="8,3" BorderThickness="0" Cursor="Hand" FontWeight="SemiBold">
+                                            <Button.Resources>
+                                                <Style TargetType="Border">
+                                                    <Setter Property="CornerRadius" Value="4"/>
+                                                </Style>
+                                            </Button.Resources>
+                                        </Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
+ 
