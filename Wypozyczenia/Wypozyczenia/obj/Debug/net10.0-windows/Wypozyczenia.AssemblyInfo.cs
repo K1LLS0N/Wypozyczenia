@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wypozyczenia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81698cd4f46a501eab720ce8d1f4e1dd76378a88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75e9376f147806525ffdd71b7e2ffbed3c72d8eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wypozyczenia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wypozyczenia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

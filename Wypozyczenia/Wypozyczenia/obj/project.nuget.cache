@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "B+x5efJtTx4=",
+  "dgSpecHash": "+uA2d14hAA4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\tomek\\OneDrive\\Pulpit\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tomek\\.nuget\\packages\\microsoft.data.sqlite.core\\11.0.0\\microsoft.data.sqlite.core.11.0.0.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\sqlite\\3.54.1\\sqlite.3.54.1.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\3.0.5\\sqlitepclraw.bundle_e_sqlite3.3.0.5.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\sqlitepclraw.config.e_sqlite3\\3.0.5\\sqlitepclraw.config.e_sqlite3.3.0.5.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\sqlitepclraw.core\\3.0.5\\sqlitepclraw.core.3.0.5.nupkg.sha512",
+    "C:\\Users\\tomek\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\3.0.5\\sqlitepclraw.provider.e_sqlite3.3.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

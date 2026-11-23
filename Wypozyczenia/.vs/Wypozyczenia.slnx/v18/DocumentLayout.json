@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tomek\\OneDrive\\Pulpit\\Wypozyczenia\\",
+  "WorkspaceRootPath": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|c:\\users\\tomek\\onedrive\\pulpit\\wypozyczenia\\wypozyczenia\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|c:\\users\\tomek\\source\\repos\\k1lls0n\\wypozyczenia\\wypozyczenia\\wypozyczenia\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|solutionrelative:wypozyczenia\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|c:\\users\\tomek\\onedrive\\pulpit\\wypozyczenia\\wypozyczenia\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|c:\\users\\tomek\\source\\repos\\k1lls0n\\wypozyczenia\\wypozyczenia\\wypozyczenia\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|solutionrelative:wypozyczenia\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|c:\\users\\tomek\\source\\repos\\k1lls0n\\wypozyczenia\\wypozyczenia\\wypozyczenia\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|solutionrelative:wypozyczenia\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|c:\\users\\tomek\\source\\repos\\k1lls0n\\wypozyczenia\\wypozyczenia\\wypozyczenia\\dodajsprzet.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|solutionrelative:wypozyczenia\\dodajsprzet.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|c:\\users\\tomek\\source\\repos\\k1lls0n\\wypozyczenia\\wypozyczenia\\wypozyczenia\\dodajsprzet.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|solutionrelative:wypozyczenia\\dodajsprzet.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|c:\\users\\tomek\\source\\repos\\k1lls0n\\wypozyczenia\\wypozyczenia\\wypozyczenia\\sprzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA67EC2C-B2C1-B779-ACDE-3CD5F46F55A8}|Wypozyczenia\\Wypozyczenia.csproj|solutionrelative:wypozyczenia\\sprzet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Wypozyczenia\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Wypozyczenia\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABMAAACAmZmZmZktwBsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T11:30:13.962Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\tomek\\OneDrive\\Pulpit\\Wypozyczenia\\Wypozyczenia\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Wypozyczenia\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\tomek\\OneDrive\\Pulpit\\Wypozyczenia\\Wypozyczenia\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia\\MainWindow.xaml",
               "RelativeToolTip": "Wypozyczenia\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-11-09T11:55:43.379Z",
+              "WhenOpened": "2026-11-23T11:13:02.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DodajSprzet.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia\\DodajSprzet.xaml.cs",
+              "RelativeDocumentMoniker": "Wypozyczenia\\DodajSprzet.xaml.cs",
+              "ToolTip": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia\\DodajSprzet.xaml.cs",
+              "RelativeToolTip": "Wypozyczenia\\DodajSprzet.xaml.cs",
+              "ViewState": "AgIAABQAAADAY2ZmZiYowAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T11:10:38.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DodajSprzet.xaml",
+              "DocumentMoniker": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia\\DodajSprzet.xaml",
+              "RelativeDocumentMoniker": "Wypozyczenia\\DodajSprzet.xaml",
+              "ToolTip": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia\\DodajSprzet.xaml",
+              "RelativeToolTip": "Wypozyczenia\\DodajSprzet.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-23T11:10:04.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sprzet.cs",
+              "DocumentMoniker": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia\\Sprzet.cs",
+              "RelativeDocumentMoniker": "Wypozyczenia\\Sprzet.cs",
+              "ToolTip": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia\\Sprzet.cs",
+              "RelativeToolTip": "Wypozyczenia\\Sprzet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T11:04:15.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tomek\\OneDrive\\Pulpit\\Wypozyczenia\\Wypozyczenia\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Wypozyczenia\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\tomek\\OneDrive\\Pulpit\\Wypozyczenia\\Wypozyczenia\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Wypozyczenia\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "db.cs",
+              "DocumentMoniker": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia\\db.cs",
+              "RelativeDocumentMoniker": "Wypozyczenia\\db.cs",
+              "ToolTip": "C:\\Users\\tomek\\source\\repos\\K1LLS0N\\Wypozyczenia\\Wypozyczenia\\Wypozyczenia\\db.cs",
+              "RelativeToolTip": "Wypozyczenia\\db.cs",
+              "ViewState": "AgIAACUAAAAAu8zMzMwEwDQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T11:55:38.28Z",
+              "WhenOpened": "2026-11-23T11:02:08.226Z",
               "EditorCaption": ""
             }
           ]
