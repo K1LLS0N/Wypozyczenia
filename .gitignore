@@ -1,1 +1,52 @@
 
+# Foldery budowania
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vsidx
+*.rsuser
+launchSettings.json.user
+
+# Wyniki testów i profilowania
+TestResults/
+*.log
+*.tmp
+
+# NuGet
+*.nupkg
+packages/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+
+# ReSharper / Rider
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+# Publikacja
+publish/
+*.pubxml
+*.pubxml.user
+
+# Pliki systemowe
+Thumbs.db
+.DS_Store
+
+# Baza danych SQLite - tymczasowe pliki robocze (journal/WAL)
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Jeśli NIE chcesz wrzucać samej bazy do repozytorium, odkomentuj:
+# *.db
